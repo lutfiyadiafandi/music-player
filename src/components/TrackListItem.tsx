@@ -34,7 +34,7 @@ export const TrackListItem = ({ track }: TrackListItemProps) => {
 				</View>
 
 				{/* TRACK TITLE + ARTIST */}
-				<View>
+				<View className="flex-1">
 					<Text
 						className={`max-w-[90%] text-sm font-semibold ${isActiveTrack ? 'text-primary' : 'text-white'}`}
 					>
